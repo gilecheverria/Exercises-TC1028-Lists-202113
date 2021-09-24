@@ -1,21 +1,12 @@
 def generaMatriz (renglon, columna):
-    matriz = []
-    for i in range (renglon):
-        lista = []
-        for y in range(columna):
-            valor = int(input())
-            lista.append(valor)
-        matriz.append(lista)
-    return matriz
+    # Completar esta función
+    pass
+
 
 def centroMatriz(matriz):
-    matrizSalida=[]
-    for ren in range(len(matriz)-2):
-        vector=[]
-        for col  in range(len(matriz[0])-2):
-            vector.append(matriz[ren+1][col+1])       
-        matrizSalida.append(vector)        
-    return matrizSalida
+    # Completar esta función
+    pass
+
 
 def main():
     renglon = int(input())

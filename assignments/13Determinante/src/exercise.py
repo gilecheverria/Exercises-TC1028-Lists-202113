@@ -1,18 +1,11 @@
 def determinante(matriz):
-    det=(matriz[0][0] * matriz[1][1]) - (matriz[1][0]*matriz[0][1])
-    return det
-    
+    # Completar esta función
+    pass
+
 def leer_matriz_por_renglon():
-    matriz=[]
-    for i in range(2):
-        datos_renglon = input()
-        renglon_lista_string=datos_renglon.split()
-        renglon_lista_int=[]
-        for elem in renglon_lista_string:
-            renglon_lista_int.append(int(elem))          
-        matriz.append(renglon_lista_int)
-    return matriz
-    
+    # Completar esta función
+    pass
+
 def main():
     matriz = leer_matriz_por_renglon()
     if (len(matriz) != 2 or len(matriz[0])!= 2):

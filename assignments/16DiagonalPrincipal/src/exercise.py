@@ -1,20 +1,12 @@
 def diagonal_principal (matriz):
-    vector_diagonal = []
-    # len(matriz) - cantidad de renglones
-    # len(matriz[0]) - cantidad de columnas
-    for x  in range(len(matriz[0])):
-        vector_diagonal.append(matriz[x][x])
-    return vector_diagonal
+    # Completar esta función
+    pass
+
 
 def leer (ren, col):
-    matriz = []
-    for x in range (ren):
-        lista = []
-        for y in range(col):
-            valor = int(input())
-            lista.append(valor)
-        matriz.append(lista)
-    return matriz
+    # Completar esta función
+    pass
+
 
 def main():
     ren = int(input())
